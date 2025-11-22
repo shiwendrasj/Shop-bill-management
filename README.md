@@ -77,3 +77,10 @@ o	The program should stop asking for inputs.
 o	It should verify the calculation: (Tomato sauce price 25 x 2 = 50).
 
 o	The final "Total Amount" should show 50.
+
+
+<img width="668" height="812" alt="image" src="https://github.com/user-attachments/assets/65fe1cd2-74ae-4293-ac7c-77139be36dee" />
+<img width="714" height="674" alt="image" src="https://github.com/user-attachments/assets/0dc9a410-a11e-4901-b4c8-75a3adcb7c9b" />
+<img width="721" height="244" alt="image" src="https://github.com/user-attachments/assets/e25cb706-3634-4b8e-85ad-d26c0ac82f3c" />
+
+
