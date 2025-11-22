@@ -1,2 +1,41 @@
-# Shop-bill-management
-This project is a simple Python application designed to automate the billing process for a shop. It allows users to view a menu, select items, and enter quantities. It replaces manual calculation with a fast, digital receipt generation system.
+Project Title
+Shop Bill Management System
+Overview of the Project
+This is a simple software project built using Python. The main idea is to replace the manual calculation method used in small shops with a digital system. Usually, shopkeepers have to remember prices or check a list, then use a calculator to add everything up. This program does that work for them. It stores the price list, takes the customer's order, and automatically calculates the final amount to be paid. It is designed to be easy to use so that even someone with basic computer knowledge can operate it.
+Features
+•	Digital Menu: Displays all available items with their prices on the screen at the start.
+•	Shopping Cart: Allows the user to add multiple items one by one.
+•	Auto-Calculation: Automatically multiplies the price by the quantity for each item.
+•	Grand Total: Sums up the cost of all items to give the final bill amount.
+•	Error Prevention: If a user types an item name that isn't in the list, the program warns them instead of crashing.
+•	Printable Invoice: Generates a neat, formatted summary of the purchase at the end.
+Technologies/Tools Used
+•	Language: Python (Version 3.0 or higher).
+•	Logic: Basic Python concepts like Loops (while, for), Decision making (if-else), Lists, and Dictionaries.
+•	Software Required: You just need Python installed on your computer. You can run this code in IDLE (which comes with Python), Visual Studio Code, or even an online compiler.
+Steps to Install & Run the Project
+1.	Install Python: If you don't have it, download it from python.org.
+2.	Save the Code:
+o	Open Notepad or any code editor.
+o	Copy the code provided earlier.
+o	Save the file with the name shop.py.
+3.	Run the File:
+o	Option A: Double-click shop.py.
+o	Option B (Better): Right-click the file and select "Edit with IDLE", then press F5 to run it.
+o	Option C (Command Line): Open your terminal/command prompt, go to the folder where the file is saved, and type python shop_bill.py.
+Instructions for Testing
+Once the program is running, follow these steps to test if it works correctly:
+1.	Check the Menu: When the program starts, check if the list of items (tomato sauce, Bread, etc.) is visible.
+2.	Add an Item:
+o	When asked for "Item name", type bread (or any item from the list).
+o	When asked for "Quantity", type 2.
+o	Expected Result: It should say "Item added successfully."
+3.	Test Error Handling:
+o	When asked for "Item name", type Pizza (which is not in the list).
+o	Expected Result: It should say "Error: Item not found" and ask you again.
+4.	Finish Shopping:
+o	Type end when asked for the item name.
+5.	Check the Bill:
+o	The program should stop asking for inputs.
+o	It should verify the calculation: (Tomato sauce price 25 x 2 = 50).
+o	The final "Total Amount" should show 50.
